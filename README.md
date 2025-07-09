@@ -1,4 +1,4 @@
-# RecomNLP: Teclado Virtual com Recomendação Textual para CAA
+# VoxRecomNLP: Teclado Virtual com Recomendação Textual para CAA
 
  <!-- Substitua com um GIF ou imagem do seu projeto em ação -->
 
@@ -156,3 +156,4 @@ Este projeto está sob a licença MIT. Veja o arquivo LICENSE para mais detalhes
 📧 Contato
 Fernando Torres Ferreira da Silva - fernandotfs@usp.br
 
+Link do Projeto: https://github.com/fertorresfs/vox_recom_nlp
