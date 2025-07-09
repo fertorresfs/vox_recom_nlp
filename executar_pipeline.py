@@ -33,10 +33,10 @@ def main():
     if not os.path.exists("frequencia.pkl"):
         baixar_e_preparar_frequencia(ARQUIVO_LEXICO)
     else:
-        print("[PULADO] Frequência já processada.")
+        print("Frequência já processada.")
 
     # 2. Carregando o modelo BERT Tokenizer e Modelo
-    print("[INFO] Carregando modelo BERT...")
+    print("Carregando modelo BERT...")
     tokenizer = AutoTokenizer.from_pretrained(BERT_MODEL_NAME)
     model = AutoModel.from_pretrained(BERT_MODEL_NAME)
 
@@ -44,7 +44,7 @@ def main():
     if not os.path.exists("trie.pkl") or not os.path.exists("vocabulario.pkl"):
         vocabulario = preparar_vocab_e_trie(tokenizer, max_palavras=MAX_PALAVRAS)
     else:
-        print("[PULADO] Trie e vocabulário já existem.")
+        print("Trie e vocabulário já existem.")
         import pickle
         with open("vocabulario.pkl", "rb") as f:
             vocabulario = pickle.load(f)
@@ -54,13 +54,13 @@ def main():
         dispositivo = carregar_dispositivo()
         calcular_embeddings(vocabulario, tokenizer, model, BATCH_SIZE, dispositivo)
     else:
-        print("[PULADO] Embeddings já gerados.")
+        print("Embeddings já gerados.")
 
-# --- NOVO PASSO 5: Executando o Fine-Tuning ---
-    print("\n--- PASSO 5: Verificando e Executando Fine-Tuning ---")
+    # 5. Executando o Fine-Tuning
+    print("\nVerificando e Executando Fine-Tuning")
     if not os.path.exists(FINE_TUNED_MODEL_PATH):
         if not os.path.exists(DATASET_CAA_FILE):
-            print(f"[ERRO] Dataset de fine-tuning '{DATASET_CAA_FILE}' não encontrado. Pulando etapa de fine-tuning.")
+            print(f"Dataset de fine-tuning '{DATASET_CAA_FILE}' não encontrado. Pulando etapa de fine-tuning.")
         else:
             executar_fine_tuning(
                 base_model_name=BERT_MODEL_NAME,
@@ -70,7 +70,7 @@ def main():
                 batch_size=BATCH_SIZE
             )
     else:
-        print(f"[PULADO] Modelo fine-tuned já existe em '{FINE_TUNED_MODEL_PATH}'.")
+        print(f"Modelo fine-tuned já existe em '{FINE_TUNED_MODEL_PATH}'.")
 
     print("PIPELINE CONCLUÍDO")
 
