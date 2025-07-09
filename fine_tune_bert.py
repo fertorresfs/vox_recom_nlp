@@ -53,14 +53,14 @@ data_collator = DataCollatorForLanguageModeling(
 
 # Argumentos do treinamento
 training_args = TrainingArguments(
-    output_dir=FINE_TUNED_MODEL_PATH,   # Diretório de saída
-    overwrite_output_dir=True,          # Sobrescreve se já existir
-    num_train_epochs=3,                 # Número de vezes para passar pelo dataset. 3-5 é um bom começo.
-    per_device_train_batch_size=8,      # Número de exemplos por lote. Ajuste de acordo com a memória da sua GPU.
-    save_steps=10_000,                  # Salva um checkpoint a cada X passos
-    save_total_limit=2,                 # Mantém apenas os 2 últimos checkpoints
-    prediction_loss_only=True,          # Acelera o cálculo ao não fazer predições durante o treinamento
-    logging_steps=500,                  # Mostra o log de perda a cada 500 passos
+    output_dir=FINE_TUNED_MODEL_PATH,   
+    overwrite_output_dir=True,          
+    num_train_epochs=3,                 
+    per_device_train_batch_size=8,      
+    save_steps=10_000,                  
+    save_total_limit=2,                 
+    prediction_loss_only=True,          
+    logging_steps=500,                  
 )
 
 # O Trainer abstrai todo o loop de treinamento
