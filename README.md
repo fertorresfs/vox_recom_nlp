@@ -1,4 +1,4 @@
-# VoxRecomNLP: Teclado Virtual com Recomendação Textual para CAA
+# VoxRecomNLP: Recomendação Textual para CAA
 
  <!-- Substitua com um GIF ou imagem do seu projeto em ação -->
 
