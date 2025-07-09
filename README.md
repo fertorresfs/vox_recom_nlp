@@ -116,7 +116,7 @@ WebSocket /ws/transcricao_em_tempo_real: Endpoint para transcrição e sugestão
 ├── client/              # Código do frontend React
 │   ├── public/
 │   └── src/
-├── vosk-model-small-pt-0.3/ # Modelo de reconhecimento de voz
+├── vosk-model-small-pt-0.3/ # Modelo de reconhecimento de voz -> baixar aqui https://alphacephei.com/vosk/models/vosk-model-small-pt-0.3.zip
 ├── bert_finetuned_caa/    # Modelo BERT após fine-tuning
 ├── api.py               # Servidor FastAPI com os endpoints
 ├── executar_pipeline.py   # Orquestrador do pré-processamento
