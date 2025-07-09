@@ -1,0 +1,26 @@
+# Para o modelo BERT e tokenização
+transformers
+torch
+
+# Para a API web
+fastapi
+uvicorn[standard]
+
+# Para cálculos numéricos e similaridade
+numpy
+scikit-learn
+
+# Para a estrutura de dados Trie
+pygtrie
+
+# Para o "fuzzy matching" (erros de digitação)
+thefuzz[speedup]
+
+# Para baixar o arquivo de frequência
+requests
+
+vosk
+
+datasets
+
+tqdm

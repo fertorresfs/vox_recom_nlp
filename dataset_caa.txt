@@ -1,0 +1,900 @@
+estou com fome de arroz.
+estou com fome de biscoito.
+estou com fome de fruta.
+estou com fome de leite.
+estou com fome de pizza.
+estou com fome de pão.
+estou com fome de sorvete.
+estou com fome de suco.
+estou com fome de água.
+estou com vontade de assistir televisão com amigo.
+estou com vontade de assistir televisão com colega.
+estou com vontade de assistir televisão com irmão.
+estou com vontade de assistir televisão com mamãe.
+estou com vontade de assistir televisão com médico.
+estou com vontade de assistir televisão com papai.
+estou com vontade de assistir televisão com professora.
+estou com vontade de assistir televisão com terapeuta.
+estou com vontade de assistir televisão.
+estou com vontade de beber com amigo.
+estou com vontade de beber com colega.
+estou com vontade de beber com irmão.
+estou com vontade de beber com mamãe.
+estou com vontade de beber com médico.
+estou com vontade de beber com papai.
+estou com vontade de beber com professora.
+estou com vontade de beber com terapeuta.
+estou com vontade de beber.
+estou com vontade de brincar com amigo.
+estou com vontade de brincar com colega.
+estou com vontade de brincar com irmão.
+estou com vontade de brincar com mamãe.
+estou com vontade de brincar com médico.
+estou com vontade de brincar com papai.
+estou com vontade de brincar com professora.
+estou com vontade de brincar com terapeuta.
+estou com vontade de brincar.
+estou com vontade de comer com amigo.
+estou com vontade de comer com colega.
+estou com vontade de comer com irmão.
+estou com vontade de comer com mamãe.
+estou com vontade de comer com médico.
+estou com vontade de comer com professora.
+estou com vontade de comer com terapeuta.
+estou com vontade de comer.
+estou com vontade de deitar um pouco com amigo.
+estou com vontade de deitar um pouco com colega.
+estou com vontade de deitar um pouco com mamãe.
+estou com vontade de deitar um pouco com médico.
+estou com vontade de deitar um pouco com papai.
+estou com vontade de deitar um pouco com professora.
+estou com vontade de deitar um pouco com terapeuta.
+estou com vontade de deitar um pouco.
+estou com vontade de dormir com amigo.
+estou com vontade de dormir com colega.
+estou com vontade de dormir com mamãe.
+estou com vontade de dormir com papai.
+estou com vontade de dormir com professora.
+estou com vontade de dormir com terapeuta.
+estou com vontade de dormir.
+estou com vontade de escovar os dentes com amigo.
+estou com vontade de escovar os dentes com colega.
+estou com vontade de escovar os dentes com irmão.
+estou com vontade de escovar os dentes com mamãe.
+estou com vontade de escovar os dentes com médico.
+estou com vontade de escovar os dentes com papai.
+estou com vontade de escovar os dentes com professora.
+estou com vontade de escovar os dentes com terapeuta.
+estou com vontade de escovar os dentes.
+estou com vontade de falar com você com amigo.
+estou com vontade de falar com você com colega.
+estou com vontade de falar com você com irmão.
+estou com vontade de falar com você com mamãe.
+estou com vontade de falar com você com médico.
+estou com vontade de falar com você com papai.
+estou com vontade de falar com você com professora.
+estou com vontade de falar com você com terapeuta.
+estou com vontade de falar com você.
+estou com vontade de ficar em silêncio com amigo.
+estou com vontade de ficar em silêncio com colega.
+estou com vontade de ficar em silêncio com irmão.
+estou com vontade de ficar em silêncio com mamãe.
+estou com vontade de ficar em silêncio com papai.
+estou com vontade de ficar em silêncio com professora.
+estou com vontade de ficar em silêncio com terapeuta.
+estou com vontade de ficar em silêncio.
+estou com vontade de ir ao banheiro com amigo.
+estou com vontade de ir ao banheiro com colega.
+estou com vontade de ir ao banheiro com irmão.
+estou com vontade de ir ao banheiro com mamãe.
+estou com vontade de ir ao banheiro com médico.
+estou com vontade de ir ao banheiro com papai.
+estou com vontade de ir ao banheiro com professora.
+estou com vontade de ir ao banheiro com terapeuta.
+estou com vontade de ir ao banheiro.
+estou com vontade de me levantar com amigo.
+estou com vontade de me levantar com colega.
+estou com vontade de me levantar com irmão.
+estou com vontade de me levantar com mamãe.
+estou com vontade de me levantar com médico.
+estou com vontade de me levantar com papai.
+estou com vontade de me levantar com professora.
+estou com vontade de me levantar com terapeuta.
+estou com vontade de me levantar.
+estou com vontade de me sentar com colega.
+estou com vontade de me sentar com mamãe.
+estou com vontade de me sentar com médico.
+estou com vontade de me sentar com papai.
+estou com vontade de me sentar com terapeuta.
+estou com vontade de me sentar.
+estou com vontade de sair com amigo.
+estou com vontade de sair com colega.
+estou com vontade de sair com irmão.
+estou com vontade de sair com mamãe.
+estou com vontade de sair com médico.
+estou com vontade de sair com papai.
+estou com vontade de sair com professora.
+estou com vontade de sair com terapeuta.
+estou com vontade de sair.
+estou com vontade de tomar banho com amigo.
+estou com vontade de tomar banho com colega.
+estou com vontade de tomar banho com irmão.
+estou com vontade de tomar banho com mamãe.
+estou com vontade de tomar banho com médico.
+estou com vontade de tomar banho com papai.
+estou com vontade de tomar banho com professora.
+estou com vontade de tomar banho com terapeuta.
+estou com vontade de tomar banho.
+estou com vontade de usar o tablet com amigo.
+estou com vontade de usar o tablet com colega.
+estou com vontade de usar o tablet com irmão.
+estou com vontade de usar o tablet com mamãe.
+estou com vontade de usar o tablet com médico.
+estou com vontade de usar o tablet com papai.
+estou com vontade de usar o tablet com professora.
+estou com vontade de usar o tablet com terapeuta.
+estou com vontade de usar o tablet.
+estou com vontade de voltar para casa com amigo.
+estou com vontade de voltar para casa com irmão.
+estou com vontade de voltar para casa com mamãe.
+estou com vontade de voltar para casa com médico.
+estou com vontade de voltar para casa com papai.
+estou com vontade de voltar para casa com professora.
+estou com vontade de voltar para casa com terapeuta.
+estou com vontade de voltar para casa.
+estou me sentindo animado.
+estou me sentindo calmo.
+estou me sentindo cansado.
+estou me sentindo com medo.
+estou me sentindo entediado.
+estou me sentindo feliz.
+estou me sentindo nervoso.
+estou me sentindo sozinho.
+estou me sentindo triste.
+gostaria de assistir televisão com amigo.
+gostaria de assistir televisão com colega.
+gostaria de assistir televisão com irmão.
+gostaria de assistir televisão com mamãe.
+gostaria de assistir televisão com médico.
+gostaria de assistir televisão com papai.
+gostaria de assistir televisão com professora.
+gostaria de assistir televisão com terapeuta.
+gostaria de assistir televisão.
+gostaria de beber com amigo.
+gostaria de beber com colega.
+gostaria de beber com irmão.
+gostaria de beber com mamãe.
+gostaria de beber com médico.
+gostaria de beber com papai.
+gostaria de beber com professora.
+gostaria de beber com terapeuta.
+gostaria de beber.
+gostaria de brincar com amigo.
+gostaria de brincar com colega.
+gostaria de brincar com irmão.
+gostaria de brincar com mamãe.
+gostaria de brincar com médico.
+gostaria de brincar com papai.
+gostaria de brincar com professora.
+gostaria de brincar com terapeuta.
+gostaria de brincar.
+gostaria de comer com amigo.
+gostaria de comer com colega.
+gostaria de comer com irmão.
+gostaria de comer com mamãe.
+gostaria de comer com médico.
+gostaria de comer com papai.
+gostaria de comer com professora.
+gostaria de comer com terapeuta.
+gostaria de comer.
+gostaria de deitar um pouco com amigo.
+gostaria de deitar um pouco com colega.
+gostaria de deitar um pouco com irmão.
+gostaria de deitar um pouco com mamãe.
+gostaria de deitar um pouco com médico.
+gostaria de deitar um pouco com papai.
+gostaria de deitar um pouco com professora.
+gostaria de deitar um pouco com terapeuta.
+gostaria de deitar um pouco.
+gostaria de dormir com amigo.
+gostaria de dormir com colega.
+gostaria de dormir com irmão.
+gostaria de dormir com mamãe.
+gostaria de dormir com médico.
+gostaria de dormir com papai.
+gostaria de dormir com professora.
+gostaria de dormir com terapeuta.
+gostaria de dormir.
+gostaria de escovar os dentes com amigo.
+gostaria de escovar os dentes com colega.
+gostaria de escovar os dentes com irmão.
+gostaria de escovar os dentes com mamãe.
+gostaria de escovar os dentes com médico.
+gostaria de escovar os dentes com papai.
+gostaria de escovar os dentes com professora.
+gostaria de escovar os dentes com terapeuta.
+gostaria de escovar os dentes.
+gostaria de falar com você com colega.
+gostaria de falar com você com irmão.
+gostaria de falar com você com mamãe.
+gostaria de falar com você com médico.
+gostaria de falar com você com papai.
+gostaria de falar com você com professora.
+gostaria de falar com você com terapeuta.
+gostaria de falar com você.
+gostaria de ficar em silêncio com amigo.
+gostaria de ficar em silêncio com colega.
+gostaria de ficar em silêncio com irmão.
+gostaria de ficar em silêncio com mamãe.
+gostaria de ficar em silêncio com médico.
+gostaria de ficar em silêncio com papai.
+gostaria de ficar em silêncio com professora.
+gostaria de ficar em silêncio com terapeuta.
+gostaria de ficar em silêncio.
+gostaria de ir ao banheiro com amigo.
+gostaria de ir ao banheiro com colega.
+gostaria de ir ao banheiro com irmão.
+gostaria de ir ao banheiro com mamãe.
+gostaria de ir ao banheiro com médico.
+gostaria de ir ao banheiro com papai.
+gostaria de ir ao banheiro com professora.
+gostaria de ir ao banheiro com terapeuta.
+gostaria de ir ao banheiro.
+gostaria de me levantar com amigo.
+gostaria de me levantar com colega.
+gostaria de me levantar com irmão.
+gostaria de me levantar com mamãe.
+gostaria de me levantar com médico.
+gostaria de me levantar com papai.
+gostaria de me levantar com terapeuta.
+gostaria de me levantar.
+gostaria de me sentar com amigo.
+gostaria de me sentar com colega.
+gostaria de me sentar com irmão.
+gostaria de me sentar com mamãe.
+gostaria de me sentar com médico.
+gostaria de me sentar com papai.
+gostaria de me sentar com professora.
+gostaria de me sentar com terapeuta.
+gostaria de me sentar.
+gostaria de sair com amigo.
+gostaria de sair com colega.
+gostaria de sair com irmão.
+gostaria de sair com mamãe.
+gostaria de sair com médico.
+gostaria de sair com papai.
+gostaria de sair com professora.
+gostaria de sair com terapeuta.
+gostaria de sair.
+gostaria de tomar banho com amigo.
+gostaria de tomar banho com colega.
+gostaria de tomar banho com irmão.
+gostaria de tomar banho com mamãe.
+gostaria de tomar banho com médico.
+gostaria de tomar banho com papai.
+gostaria de tomar banho com professora.
+gostaria de tomar banho com terapeuta.
+gostaria de tomar banho.
+gostaria de usar o tablet com amigo.
+gostaria de usar o tablet com colega.
+gostaria de usar o tablet com irmão.
+gostaria de usar o tablet com mamãe.
+gostaria de usar o tablet com médico.
+gostaria de usar o tablet com papai.
+gostaria de usar o tablet com professora.
+gostaria de usar o tablet com terapeuta.
+gostaria de usar o tablet.
+gostaria de voltar para casa com amigo.
+gostaria de voltar para casa com colega.
+gostaria de voltar para casa com irmão.
+gostaria de voltar para casa com mamãe.
+gostaria de voltar para casa com papai.
+gostaria de voltar para casa com professora.
+gostaria de voltar para casa com terapeuta.
+gostaria de voltar para casa.
+gosto de arroz.
+gosto de biscoito.
+gosto de fruta.
+gosto de leite.
+gosto de pizza.
+gosto de pão.
+gosto de sorvete.
+gosto de suco.
+gosto de água.
+não gosto de arroz.
+não gosto de biscoito.
+não gosto de fruta.
+não gosto de leite.
+não gosto de pizza.
+não gosto de pão.
+não gosto de sorvete.
+não gosto de suco.
+não gosto de água.
+não quero assistir televisão com amigo.
+não quero assistir televisão com irmão.
+não quero assistir televisão com mamãe.
+não quero assistir televisão com papai.
+não quero assistir televisão com professora.
+não quero assistir televisão com terapeuta.
+não quero assistir televisão.
+não quero beber com amigo.
+não quero beber com colega.
+não quero beber com irmão.
+não quero beber com mamãe.
+não quero beber com médico.
+não quero beber com papai.
+não quero beber com professora.
+não quero beber com terapeuta.
+não quero beber.
+não quero brincar com colega.
+não quero brincar com irmão.
+não quero brincar com mamãe.
+não quero brincar com médico.
+não quero brincar com papai.
+não quero brincar com professora.
+não quero brincar com terapeuta.
+não quero brincar.
+não quero comer com amigo.
+não quero comer com colega.
+não quero comer com irmão.
+não quero comer com médico.
+não quero comer com papai.
+não quero comer com terapeuta.
+não quero comer.
+não quero deitar um pouco com amigo.
+não quero deitar um pouco com colega.
+não quero deitar um pouco com irmão.
+não quero deitar um pouco com mamãe.
+não quero deitar um pouco com médico.
+não quero deitar um pouco com papai.
+não quero deitar um pouco com professora.
+não quero deitar um pouco com terapeuta.
+não quero deitar um pouco.
+não quero dormir com amigo.
+não quero dormir com colega.
+não quero dormir com irmão.
+não quero dormir com mamãe.
+não quero dormir com médico.
+não quero dormir com papai.
+não quero dormir com professora.
+não quero dormir com terapeuta.
+não quero dormir.
+não quero escovar os dentes com amigo.
+não quero escovar os dentes com colega.
+não quero escovar os dentes com irmão.
+não quero escovar os dentes com mamãe.
+não quero escovar os dentes com médico.
+não quero escovar os dentes com papai.
+não quero escovar os dentes com professora.
+não quero escovar os dentes com terapeuta.
+não quero escovar os dentes.
+não quero falar com você com amigo.
+não quero falar com você com colega.
+não quero falar com você com mamãe.
+não quero falar com você com médico.
+não quero falar com você com papai.
+não quero falar com você com professora.
+não quero falar com você com terapeuta.
+não quero falar com você.
+não quero ficar em silêncio com amigo.
+não quero ficar em silêncio com colega.
+não quero ficar em silêncio com irmão.
+não quero ficar em silêncio com médico.
+não quero ficar em silêncio com papai.
+não quero ficar em silêncio com professora.
+não quero ficar em silêncio com terapeuta.
+não quero ficar em silêncio.
+não quero ir ao banheiro com amigo.
+não quero ir ao banheiro com colega.
+não quero ir ao banheiro com irmão.
+não quero ir ao banheiro com médico.
+não quero ir ao banheiro com papai.
+não quero ir ao banheiro com professora.
+não quero ir ao banheiro com terapeuta.
+não quero ir ao banheiro.
+não quero me levantar com amigo.
+não quero me levantar com colega.
+não quero me levantar com irmão.
+não quero me levantar com mamãe.
+não quero me levantar com médico.
+não quero me levantar com papai.
+não quero me levantar com professora.
+não quero me levantar com terapeuta.
+não quero me levantar.
+não quero me sentar com amigo.
+não quero me sentar com irmão.
+não quero me sentar com mamãe.
+não quero me sentar com médico.
+não quero me sentar com papai.
+não quero me sentar com professora.
+não quero me sentar com terapeuta.
+não quero me sentar.
+não quero sair com amigo.
+não quero sair com colega.
+não quero sair com irmão.
+não quero sair com médico.
+não quero sair com papai.
+não quero sair com professora.
+não quero sair com terapeuta.
+não quero sair.
+não quero tomar banho com amigo.
+não quero tomar banho com colega.
+não quero tomar banho com irmão.
+não quero tomar banho com mamãe.
+não quero tomar banho com médico.
+não quero tomar banho com terapeuta.
+não quero tomar banho.
+não quero usar o tablet com amigo.
+não quero usar o tablet com colega.
+não quero usar o tablet com irmão.
+não quero usar o tablet com mamãe.
+não quero usar o tablet com papai.
+não quero usar o tablet com professora.
+não quero usar o tablet.
+não quero voltar para casa com amigo.
+não quero voltar para casa com colega.
+não quero voltar para casa com irmão.
+não quero voltar para casa com mamãe.
+não quero voltar para casa com médico.
+não quero voltar para casa com papai.
+não quero voltar para casa com professora.
+não quero voltar para casa com terapeuta.
+não quero voltar para casa.
+posso assistir televisão com amigo.
+posso assistir televisão com colega.
+posso assistir televisão com irmão.
+posso assistir televisão com mamãe.
+posso assistir televisão com médico.
+posso assistir televisão com papai.
+posso assistir televisão com professora.
+posso assistir televisão com terapeuta.
+posso assistir televisão.
+posso beber com amigo.
+posso beber com colega.
+posso beber com irmão.
+posso beber com mamãe.
+posso beber com médico.
+posso beber com professora.
+posso beber com terapeuta.
+posso beber.
+posso brincar com amigo.
+posso brincar com colega.
+posso brincar com irmão.
+posso brincar com mamãe.
+posso brincar com médico.
+posso brincar com papai.
+posso brincar com terapeuta.
+posso brincar.
+posso comer com amigo.
+posso comer com colega.
+posso comer com irmão.
+posso comer com mamãe.
+posso comer com médico.
+posso comer com papai.
+posso comer com professora.
+posso comer com terapeuta.
+posso comer.
+posso deitar um pouco com amigo.
+posso deitar um pouco com colega.
+posso deitar um pouco com irmão.
+posso deitar um pouco com mamãe.
+posso deitar um pouco com médico.
+posso deitar um pouco com papai.
+posso deitar um pouco com professora.
+posso deitar um pouco com terapeuta.
+posso deitar um pouco.
+posso dormir com amigo.
+posso dormir com colega.
+posso dormir com irmão.
+posso dormir com mamãe.
+posso dormir com médico.
+posso dormir com papai.
+posso dormir com professora.
+posso dormir com terapeuta.
+posso dormir.
+posso escovar os dentes com amigo.
+posso escovar os dentes com irmão.
+posso escovar os dentes com mamãe.
+posso escovar os dentes com papai.
+posso escovar os dentes com professora.
+posso escovar os dentes com terapeuta.
+posso escovar os dentes.
+posso falar com você com amigo.
+posso falar com você com colega.
+posso falar com você com irmão.
+posso falar com você com mamãe.
+posso falar com você com médico.
+posso falar com você com papai.
+posso falar com você com professora.
+posso falar com você com terapeuta.
+posso falar com você.
+posso ficar em silêncio com amigo.
+posso ficar em silêncio com colega.
+posso ficar em silêncio com irmão.
+posso ficar em silêncio com mamãe.
+posso ficar em silêncio com médico.
+posso ficar em silêncio com papai.
+posso ficar em silêncio com professora.
+posso ficar em silêncio com terapeuta.
+posso ficar em silêncio.
+posso ir ao banheiro com amigo.
+posso ir ao banheiro com colega.
+posso ir ao banheiro com irmão.
+posso ir ao banheiro com mamãe.
+posso ir ao banheiro com médico.
+posso ir ao banheiro com papai.
+posso ir ao banheiro com professora.
+posso ir ao banheiro com terapeuta.
+posso ir ao banheiro.
+posso ir ao banheiro?
+posso ir ao cama?
+posso ir ao consultório?
+posso ir ao cozinha?
+posso ir ao escola?
+posso ir ao parque?
+posso ir ao quarto?
+posso ir ao sala?
+posso ir ao sofá?
+posso me levantar com amigo.
+posso me levantar com colega.
+posso me levantar com irmão.
+posso me levantar com mamãe.
+posso me levantar com médico.
+posso me levantar com papai.
+posso me levantar com professora.
+posso me levantar com terapeuta.
+posso me levantar.
+posso me sentar com amigo.
+posso me sentar com colega.
+posso me sentar com irmão.
+posso me sentar com mamãe.
+posso me sentar com médico.
+posso me sentar com papai.
+posso me sentar com professora.
+posso me sentar com terapeuta.
+posso me sentar.
+posso sair com amigo.
+posso sair com colega.
+posso sair com irmão.
+posso sair com médico.
+posso sair com papai.
+posso sair com professora.
+posso sair com terapeuta.
+posso sair.
+posso tomar banho com amigo.
+posso tomar banho com colega.
+posso tomar banho com irmão.
+posso tomar banho com mamãe.
+posso tomar banho com médico.
+posso tomar banho com papai.
+posso tomar banho com professora.
+posso tomar banho com terapeuta.
+posso tomar banho.
+posso usar o tablet com amigo.
+posso usar o tablet com colega.
+posso usar o tablet com irmão.
+posso usar o tablet com mamãe.
+posso usar o tablet com médico.
+posso usar o tablet com papai.
+posso usar o tablet com professora.
+posso usar o tablet com terapeuta.
+posso usar o tablet.
+posso voltar para casa com amigo.
+posso voltar para casa com colega.
+posso voltar para casa com irmão.
+posso voltar para casa com mamãe.
+posso voltar para casa com médico.
+posso voltar para casa com papai.
+posso voltar para casa com professora.
+posso voltar para casa com terapeuta.
+posso voltar para casa.
+preciso assistir televisão com amigo.
+preciso assistir televisão com colega.
+preciso assistir televisão com irmão.
+preciso assistir televisão com mamãe.
+preciso assistir televisão com médico.
+preciso assistir televisão com papai.
+preciso assistir televisão com professora.
+preciso assistir televisão com terapeuta.
+preciso assistir televisão.
+preciso beber com amigo.
+preciso beber com colega.
+preciso beber com irmão.
+preciso beber com mamãe.
+preciso beber com médico.
+preciso beber com papai.
+preciso beber com professora.
+preciso beber com terapeuta.
+preciso beber.
+preciso brincar com amigo.
+preciso brincar com colega.
+preciso brincar com irmão.
+preciso brincar com mamãe.
+preciso brincar com médico.
+preciso brincar com papai.
+preciso brincar com professora.
+preciso brincar com terapeuta.
+preciso brincar.
+preciso comer com amigo.
+preciso comer com colega.
+preciso comer com irmão.
+preciso comer com mamãe.
+preciso comer com médico.
+preciso comer com papai.
+preciso comer com professora.
+preciso comer com terapeuta.
+preciso comer.
+preciso deitar um pouco com amigo.
+preciso deitar um pouco com colega.
+preciso deitar um pouco com irmão.
+preciso deitar um pouco com mamãe.
+preciso deitar um pouco com médico.
+preciso deitar um pouco com papai.
+preciso deitar um pouco com professora.
+preciso deitar um pouco com terapeuta.
+preciso deitar um pouco.
+preciso dormir com amigo.
+preciso dormir com colega.
+preciso dormir com irmão.
+preciso dormir com mamãe.
+preciso dormir com médico.
+preciso dormir com papai.
+preciso dormir com professora.
+preciso dormir com terapeuta.
+preciso dormir.
+preciso escovar os dentes com amigo.
+preciso escovar os dentes com colega.
+preciso escovar os dentes com irmão.
+preciso escovar os dentes com mamãe.
+preciso escovar os dentes com médico.
+preciso escovar os dentes com papai.
+preciso escovar os dentes com professora.
+preciso escovar os dentes com terapeuta.
+preciso escovar os dentes.
+preciso falar com você com amigo.
+preciso falar com você com colega.
+preciso falar com você com irmão.
+preciso falar com você com mamãe.
+preciso falar com você com médico.
+preciso falar com você com papai.
+preciso falar com você com professora.
+preciso falar com você com terapeuta.
+preciso falar com você.
+preciso ficar em silêncio com amigo.
+preciso ficar em silêncio com colega.
+preciso ficar em silêncio com irmão.
+preciso ficar em silêncio com mamãe.
+preciso ficar em silêncio com médico.
+preciso ficar em silêncio com papai.
+preciso ficar em silêncio com professora.
+preciso ficar em silêncio.
+preciso ir ao banheiro com amigo.
+preciso ir ao banheiro com colega.
+preciso ir ao banheiro com mamãe.
+preciso ir ao banheiro com médico.
+preciso ir ao banheiro com papai.
+preciso ir ao banheiro com professora.
+preciso ir ao banheiro com terapeuta.
+preciso ir ao banheiro.
+preciso me levantar com amigo.
+preciso me levantar com colega.
+preciso me levantar com mamãe.
+preciso me levantar com médico.
+preciso me levantar com papai.
+preciso me levantar com professora.
+preciso me levantar com terapeuta.
+preciso me levantar.
+preciso me sentar com amigo.
+preciso me sentar com colega.
+preciso me sentar com irmão.
+preciso me sentar com mamãe.
+preciso me sentar com médico.
+preciso me sentar com papai.
+preciso me sentar com professora.
+preciso me sentar com terapeuta.
+preciso me sentar.
+preciso sair com amigo.
+preciso sair com colega.
+preciso sair com irmão.
+preciso sair com mamãe.
+preciso sair com médico.
+preciso sair com papai.
+preciso sair com professora.
+preciso sair com terapeuta.
+preciso sair.
+preciso tomar banho com amigo.
+preciso tomar banho com colega.
+preciso tomar banho com irmão.
+preciso tomar banho com mamãe.
+preciso tomar banho com médico.
+preciso tomar banho com papai.
+preciso tomar banho com professora.
+preciso tomar banho com terapeuta.
+preciso tomar banho.
+preciso usar o tablet com amigo.
+preciso usar o tablet com colega.
+preciso usar o tablet com irmão.
+preciso usar o tablet com mamãe.
+preciso usar o tablet com médico.
+preciso usar o tablet com papai.
+preciso usar o tablet com professora.
+preciso usar o tablet com terapeuta.
+preciso usar o tablet.
+preciso voltar para casa com amigo.
+preciso voltar para casa com colega.
+preciso voltar para casa com irmão.
+preciso voltar para casa com mamãe.
+preciso voltar para casa com médico.
+preciso voltar para casa com papai.
+preciso voltar para casa com professora.
+preciso voltar para casa com terapeuta.
+preciso voltar para casa.
+quero assistir televisão com amigo.
+quero assistir televisão com colega.
+quero assistir televisão com irmão.
+quero assistir televisão com mamãe.
+quero assistir televisão com médico.
+quero assistir televisão com papai.
+quero assistir televisão com professora.
+quero assistir televisão com terapeuta.
+quero assistir televisão.
+quero beber com amigo.
+quero beber com colega.
+quero beber com irmão.
+quero beber com mamãe.
+quero beber com médico.
+quero beber com papai.
+quero beber com professora.
+quero beber com terapeuta.
+quero beber.
+quero brincar com amigo.
+quero brincar com colega.
+quero brincar com irmão.
+quero brincar com mamãe.
+quero brincar com médico.
+quero brincar com papai.
+quero brincar com professora.
+quero brincar com terapeuta.
+quero brincar.
+quero comer com amigo.
+quero comer com colega.
+quero comer com mamãe.
+quero comer com papai.
+quero comer com professora.
+quero comer com terapeuta.
+quero comer.
+quero deitar um pouco com amigo.
+quero deitar um pouco com colega.
+quero deitar um pouco com irmão.
+quero deitar um pouco com mamãe.
+quero deitar um pouco com médico.
+quero deitar um pouco com papai.
+quero deitar um pouco com professora.
+quero deitar um pouco com terapeuta.
+quero deitar um pouco.
+quero dormir com amigo.
+quero dormir com colega.
+quero dormir com irmão.
+quero dormir com mamãe.
+quero dormir com médico.
+quero dormir com papai.
+quero dormir com professora.
+quero dormir com terapeuta.
+quero dormir.
+quero escovar os dentes com amigo.
+quero escovar os dentes com colega.
+quero escovar os dentes com irmão.
+quero escovar os dentes com mamãe.
+quero escovar os dentes com médico.
+quero escovar os dentes com papai.
+quero escovar os dentes com terapeuta.
+quero escovar os dentes.
+quero falar com você com amigo.
+quero falar com você com colega.
+quero falar com você com irmão.
+quero falar com você com mamãe.
+quero falar com você com médico.
+quero falar com você com papai.
+quero falar com você com professora.
+quero falar com você com terapeuta.
+quero falar com você.
+quero ficar em silêncio com amigo.
+quero ficar em silêncio com colega.
+quero ficar em silêncio com irmão.
+quero ficar em silêncio com mamãe.
+quero ficar em silêncio com médico.
+quero ficar em silêncio com papai.
+quero ficar em silêncio com professora.
+quero ficar em silêncio com terapeuta.
+quero ficar em silêncio.
+quero ir ao banheiro com amigo.
+quero ir ao banheiro com colega.
+quero ir ao banheiro com irmão.
+quero ir ao banheiro com mamãe.
+quero ir ao banheiro com médico.
+quero ir ao banheiro com papai.
+quero ir ao banheiro com professora.
+quero ir ao banheiro com terapeuta.
+quero ir ao banheiro.
+quero ir para o banheiro.
+quero ir para o cama.
+quero ir para o consultório.
+quero ir para o cozinha.
+quero ir para o escola.
+quero ir para o parque.
+quero ir para o quarto.
+quero ir para o sala.
+quero ir para o sofá.
+quero me levantar com amigo.
+quero me levantar com colega.
+quero me levantar com irmão.
+quero me levantar com mamãe.
+quero me levantar com médico.
+quero me levantar com papai.
+quero me levantar com professora.
+quero me levantar com terapeuta.
+quero me levantar.
+quero me sentar com amigo.
+quero me sentar com colega.
+quero me sentar com irmão.
+quero me sentar com médico.
+quero me sentar com papai.
+quero me sentar com professora.
+quero me sentar com terapeuta.
+quero me sentar.
+quero sair com amigo.
+quero sair com colega.
+quero sair com irmão.
+quero sair com mamãe.
+quero sair com médico.
+quero sair com papai.
+quero sair com terapeuta.
+quero sair.
+quero tomar banho com amigo.
+quero tomar banho com colega.
+quero tomar banho com irmão.
+quero tomar banho com mamãe.
+quero tomar banho com papai.
+quero tomar banho com professora.
+quero tomar banho com terapeuta.
+quero tomar banho.
+quero usar o tablet com amigo.
+quero usar o tablet com colega.
+quero usar o tablet com irmão.
+quero usar o tablet com médico.
+quero usar o tablet com professora.
+quero usar o tablet com terapeuta.
+quero usar o tablet.
+quero ver a amigo.
+quero ver a colega.
+quero ver a irmão.
+quero ver a mamãe.
+quero ver a médico.
+quero ver a papai.
+quero ver a professora.
+quero ver a terapeuta.
+quero voltar para casa com amigo.
+quero voltar para casa com colega.
+quero voltar para casa com irmão.
+quero voltar para casa com mamãe.
+quero voltar para casa com médico.
+quero voltar para casa com papai.
+quero voltar para casa com professora.
+quero voltar para casa com terapeuta.
+quero voltar para casa.
+você pode me ajudar a assistir televisão?
+você pode me ajudar a beber?
+você pode me ajudar a brincar?
+você pode me ajudar a comer?
+você pode me ajudar a deitar um pouco?
+você pode me ajudar a dormir?
+você pode me ajudar a escovar os dentes?
+você pode me ajudar a falar com você?
+você pode me ajudar a ficar em silêncio?
+você pode me ajudar a ir ao banheiro?
+você pode me ajudar a me levantar?
+você pode me ajudar a me sentar?
+você pode me ajudar a sair?
+você pode me ajudar a tomar banho?
+você pode me ajudar a usar o tablet?
+você pode me ajudar a voltar para casa?
