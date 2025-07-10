@@ -2,7 +2,7 @@
 
  <!-- Substitua com um GIF ou imagem do seu projeto em ação -->
 
-## 📜 Sobre o Projeto
+## Sobre o Projeto
 
 O **RecomNLP** é um protótipo de sistema de **Comunicação Aumentativa e Alternativa (CAA)** projetado para auxiliar pessoas com necessidades complexas de comunicação. O sistema consiste em um teclado virtual personalizável (desenvolvido em React) que se integra a um poderoso motor de recomendação textual (backend em FastAPI e Python).
 
@@ -10,7 +10,7 @@ O objetivo principal é acelerar a comunicação e reduzir o esforço de digita�
 
 Este projeto foi desenvolvido como parte de uma pesquisa de mestrado no Instituto de Ciências Matemáticas e de Computação (ICMC) da Universidade de São Paulo (USP).
 
-## ✨ Funcionalidades Principais
+## Funcionalidades Principais
 
 -   **Teclado Virtual Personalizável:** Interface desenvolvida em React, permitindo ao usuário customizar o layout das teclas.
 -   **Motor de Recomendação Híbrido:**
@@ -20,7 +20,7 @@ Este projeto foi desenvolvido como parte de uma pesquisa de mestrado no Institut
 -   **API de Alta Performance:** Backend construído com **FastAPI**, garantindo baixa latência para as sugestões.
 -   **Pipeline de Pré-processamento:** Um conjunto de scripts para processar léxicos, gerar embeddings, criar a estrutura Trie e realizar o fine-tuning dos modelos.
 
-## 🛠️ Tecnologias Utilizadas
+## Tecnologias Utilizadas
 
 ### Backend (Python)
 -   **Framework:** FastAPI, Uvicorn
@@ -40,7 +40,7 @@ Este projeto foi desenvolvido como parte de uma pesquisa de mestrado no Institut
 -   **Gerenciador de Pacotes:** `pip`, `npm`
 -   **Controle de Versão:** Git, GitHub
 
-## 🚀 Instalação e Execução
+## Instalação e Execução
 
 Siga os passos abaixo para configurar e rodar o projeto localmente.
 
@@ -110,7 +110,7 @@ GET /embedding/: Retorna o vetor de embedding de uma palavra.
 
 WebSocket /ws/transcricao_em_tempo_real: Endpoint para transcrição e sugestão de voz em tempo real.
 
-📂 Estrutura do Projeto
+## Estrutura do Projeto
 ```bash
 .
 ├── client/              # Código do frontend React
@@ -126,7 +126,7 @@ WebSocket /ws/transcricao_em_tempo_real: Endpoint para transcrição e sugestão
 ├── requirements.txt     # Dependências Python
 └── README.md
 ```
-📈 Trabalhos Futuros
+## Trabalhos Futuros
 Integração com Rastreamento Ocular: Implementar o controle do teclado via WebGazer.js.
 
 Aprimoramento dos Modelos: Realizar fine-tuning com dados de usuários reais para personalização.
@@ -137,7 +137,7 @@ Otimização de Performance: Quantização dos modelos para rodar em dispositivo
 
 Deploy: Empacotar a aplicação com Docker para facilitar o deploy.
 
-🤝 Contribuições
+## Contribuições
 Contribuições são bem-vindas! Se você tiver ideias para novas funcionalidades, melhorias ou correções de bugs, sinta-se à vontade para abrir uma issue ou enviar um pull request.
 
 Faça um fork do projeto.
@@ -150,10 +150,10 @@ Faça o push para a branch (git push origin feature/minha-feature).
 
 Abra um Pull Request.
 
-📄 Licença
+## Licença
 Este projeto está sob a licença MIT. Veja o arquivo LICENSE para mais detalhes.
 
-📧 Contato
+## Contato
 Fernando Torres Ferreira da Silva - fernandotfs@usp.br
 
 Link do Projeto: https://github.com/fertorresfs/vox_recom_nlp
