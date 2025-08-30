@@ -55,28 +55,35 @@ git clone https://github.com/seu-usuario/recomnlp.git
 cd recomnlp
 ```
 2. Configuração do Backend (Servidor Python)
-a. Crie e ative um ambiente virtual:
+a. Crie e ative um ambiente virtual (Ambiente Linux):
 ```bash
 python -m venv venv
-source venv/bin/activate  # No Windows: venv\Scripts\activate
+source venv/bin/activate
 ```
-b. Instale as dependências Python:
+
+b. Crie e ative um ambiente virtual (Ambiente Windows):
+```bash
+python -m venv venv
+venv\Scripts\activate
+```
+
+c. Instale as dependências Python:
 ```bash
 pip install -r requirements.txt
 ```
 Nota: O requirements.txt deve conter todas as bibliotecas, como fastapi, uvicorn, transformers, torch, vosk, pygtrie, websockets, accelerate, etc.
 
-c. Baixe o Modelo Vosk:
+d. Baixe o Modelo Vosk:
 Baixe o modelo em português (small ou large) do site oficial do Vosk e descompacte-o na raiz do projeto, na pasta vosk-model-small-pt-0.3.
 
-d. Execute o Pipeline de Pré-processamento:
+e. Execute o Pipeline de Pré-processamento:
 Este passo é crucial e só precisa ser executado uma vez (ou sempre que quiser atualizar os recursos). Ele irá gerar os arquivos .pkl, .npy e o modelo fine-tuned.
 ```bash
 python executar_pipeline.py
 ```
 Nota: Para o fine-tuning, certifique-se de que o arquivo dataset_caa.txt existe. Você pode gerá-lo com python gerar_dataset_caa.py.
 
-e. Inicie o Servidor FastAPI:
+f. Inicie o Servidor FastAPI:
 ```bash
 uvicorn api:app --host 0.0.0.0 --port 8000 --reload
 ```
