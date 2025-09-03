@@ -114,6 +114,7 @@ def carregar_modelos():
 async def sugerir_hibrido(texto: str = Query(..., min_length=1), limite: int = 3):
     """
     Endpoint híbrido: autocompleta palavra atual com Trie ou prevê próxima palavra com BERT.
+    Exemplo: http://localhost:8000/sugestoes_hibrido/?texto=abert
     """
     # Verifica se os modelos foram carregados corretamente
     if app.state.sugestor_bert is None and app.state.trie is None:
@@ -151,7 +152,10 @@ async def sugerir_hibrido(texto: str = Query(..., min_length=1), limite: int = 3
 
 @app.get("/sugestoes/", response_model=list, summary="Sugestões com base no prefixo")
 def sugerir(prefixo: str = Query(..., min_length=1), limite: int = 5):
-    """Sugere palavras que começam com o prefixo fornecido."""
+    """
+    Sugere palavras que começam com o prefixo fornecido.
+    http://localhost:8000/sugestoes/?prefixo=abert
+    """
     if not app.state.trie or not app.state.frequencia:
         return []
 
@@ -180,7 +184,10 @@ def sugerir(prefixo: str = Query(..., min_length=1), limite: int = 5):
 
 @app.get("/embedding/", response_model=dict, summary="Retorna o embedding de uma palavra")
 def get_embedding(palavra: str):
-    """Retorna o vetor de embedding da palavra, se existir no vocabulário."""
+    """
+    Retorna o vetor de embedding da palavra, se existir no vocabulário.
+    http://localhost:8000/embedding/?palavra=aberta
+    """
     if not app.state.vocabulario or app.state.embeddings is None:
         return {"erro": "Recursos de embedding não carregados."}
 
@@ -195,7 +202,10 @@ def get_embedding(palavra: str):
 
 @app.get("/frequencia/", response_model=dict, summary="Consulta a frequência estimada de uma palavra")
 def get_frequencia(palavra: str):
-    """Consulta a frequência aproximada da palavra (quanto menor, mais frequente)."""
+    """
+    Consulta a frequência aproximada da palavra (quanto menor, mais frequente).
+    http://localhost:8000/frequencia/?palavra=abertura
+    """
     if not app.state.frequencia:
         return {"erro": "Recurso de frequência não carregado."}
 
@@ -207,6 +217,10 @@ def get_frequencia(palavra: str):
 
 @app.get("/sugestoes_gpt2/", response_model=list, summary="Sugestões com GPT-2")
 def sugerir_com_gpt2(prefixo: str = Query(..., min_length=1), limite: int = 5):
+    """
+    Sugestões do GPT2
+    http://localhost:8000/sugestoes_gpt2/?prefixo=abert
+    """
     sugestoes = gerar_sugestoes_gpt2(prefixo, num_sugestoes=limite)
     #completas = [f"{prefixo}{s}" for s in sugestoes]
     return sugestoes
@@ -228,6 +242,7 @@ async def websocket_endpoint_voz(websocket: WebSocket):
     - Transcreve com Vosk.
     - Ao obter uma frase final, gera sugestões com BERT fine-tuned.
     - Envia sugestões de volta para o cliente.
+    http://localhost:8000/ws/sugestoes_por_voz
     """
     await websocket.accept()
     
@@ -262,7 +277,20 @@ async def websocket_endpoint_voz(websocket: WebSocket):
                         try:
                             # Prepara o input para o pipeline 'fill-mask'
                             texto_com_mascara = texto_transcrito.strip() + " " + app.state.sugestor_bert.tokenizer.mask_token
-                            resultados_bert = app.state.sugestor_bert(texto_com_mascara, top_k=3)
+                            
+                            import asyncio
+
+                            # resultados_bert = app.state.sugestor_bert(texto_com_mascara, top_k=3)
+
+                            # Por esta versão assíncrona:
+                            loop = asyncio.get_event_loop()
+                            resultados_bert = await loop.run_in_executor(
+                                None,  # Usa o executor de thread padrão
+                                app.state.sugestor_bert,
+                                texto_com_mascara,
+                                {"top_k": 3} # Parâmetros adicionais para o pipeline
+)
+                            
                             sugestoes = [res['token_str'].strip() for res in resultados_bert]
                             
                             # Envia as sugestões para o cliente
@@ -340,6 +368,67 @@ async def websocket_transcricao(websocket: WebSocket):
         print(f"[WebSocket ERRO] Erro: {e}")
     finally:
         # Garante que a conexão seja fechada
+        await websocket.close()
+        
+# --- ENDPOINT WEBSOCKET DE TRANSCRIÇÃO E SUGESTÃO EM TEMPO REAL ---
+@app.websocket("/ws/recom_tempo_real")
+async def websocket_transcricao(websocket: WebSocket):
+    await websocket.accept()
+    
+    if not app.state.vosk_model:
+        await websocket.send_json({"tipo": "erro", "detalhe": "Modelo de voz não disponível."})
+        await websocket.close()
+        return
+
+    rec = vosk.KaldiRecognizer(app.state.vosk_model, 16000)
+    print("[WebSocket] Cliente conectado para transcrição em tempo real.")
+    
+    try:
+        while True:
+            audio_chunk = await websocket.receive_bytes()
+
+            if rec.AcceptWaveform(audio_chunk):
+                result = json.loads(rec.Result())
+                if result.get("text"):
+                    texto_final = result["text"]
+                    await websocket.send_json({"tipo": "transcricao_final", "texto": texto_final})
+                    
+                    # Gera sugestões de PRÓXIMA PALAVRA com BERT após uma pausa
+                    if app.state.sugestor_bert and len(texto_final.split()) >= 1:
+                        texto_com_mascara = texto_final.strip() + " " + app.state.sugestor_bert.tokenizer.mask_token
+                        resultados_bert = app.state.sugestor_bert(texto_com_mascara, top_k=3)
+                        sugestoes = [res['token_str'].strip() for res in resultados_bert]
+                        await websocket.send_json({"tipo": "sugestao_proxima_palavra", "sugestoes": sugestoes})
+            else:
+                partial_result = json.loads(rec.PartialResult())
+                texto_parcial = partial_result.get("partial", "").strip()
+                
+                if texto_parcial:
+                    await websocket.send_json({"tipo": "transcricao_parcial", "texto": texto_parcial})
+
+                    # APRIMORAMENTO: Usa a nova Trie para autocompletar frases
+                    if app.state.trie and len(texto_parcial) > 3:
+                        # Busca na Trie por frases que começam com o texto parcial
+                        sugestoes_frase_valores = app.state.trie.values(prefix=texto_parcial.lower())
+                        
+                        # Ordena pela frequência (priorizando as frases do CAA)
+                        sugestoes_ordenadas = sorted(
+                            sugestoes_frase_valores, 
+                            key=lambda p: app.state.frequencia.get(p.lower(), float('inf'))
+                        )
+                        
+                        if sugestoes_ordenadas:
+                            # Envia as melhores 3 sugestões de frases
+                            await websocket.send_json({
+                                "tipo": "sugestao_autocompletar_frase", 
+                                "sugestoes": sugestoes_ordenadas[:3]
+                            })
+                            
+    except WebSocketDisconnect:
+        print("[WebSocket] Cliente desconectado.")
+    except Exception as e:
+        print(f"[WebSocket ERRO] Erro: {e}")
+    finally:
         await websocket.close()
 
 # Execução local
